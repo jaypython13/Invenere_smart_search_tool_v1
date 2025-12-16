@@ -8,8 +8,8 @@ from langchain.llms import Ollama
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
-llama = Ollama(model="llama3:3.2")  # Update as needed
-
+#llama = Ollama(model="llama3:3.2")  # Update as needed
+llamma = Ollama(model="llama3:70b") 
 # Entity extraction prompt and chain
 entity_extract_prompt = PromptTemplate(
     input_variables=["answer_text"],
