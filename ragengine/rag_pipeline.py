@@ -1,8 +1,8 @@
-from rag_engine.chunker import chunk_text
-from rag_engine.embedder import Embedder
-from rag_engine.vector_store import VectorStore
-from rag_engine.reranker import Reranker
-from rag_engine.llama_interface import query_llama
+from ragengine.chunker import chunk_text
+from ragengine.embedder import Embedder
+from ragengine.vector_store import VectorStore
+from ragengine.reranker import Reranker
+from ragengine.llama_interface import query_llama
 
 def build_history_enhanced_query(query, history, history_turns=1):
     """
