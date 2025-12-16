@@ -1,7 +1,7 @@
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-from rag_engine.rag_pipeline import RAGPipeline
+from ragengine.rag_pipeline import RAGPipeline
 
 # LangChain imports
 from langchain.llms import Ollama
