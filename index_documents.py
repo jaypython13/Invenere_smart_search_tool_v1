@@ -1,9 +1,9 @@
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-from rag_engine.rag_pipeline import RAGPipeline
-from rag_engine.chunker import robust_chunker        # <- Import robust chunker!
-from rag_engine.parser import load_documents_from_desktop
+from ragengine.rag_pipeline import RAGPipeline
+from ragengine.chunker import robust_chunker        # <- Import robust chunker!
+from ragengine.parser import load_documents_from_desktop
 
 BATCH_SIZE = 200
 
