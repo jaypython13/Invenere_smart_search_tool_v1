@@ -1,5 +1,5 @@
 import streamlit as st
-from rag_engine.rag_pipeline import RAGPipeline
+from ragengine.rag_pipeline import RAGPipeline
 
 st.title("Invenere: Smart Enterprise Search")
 
